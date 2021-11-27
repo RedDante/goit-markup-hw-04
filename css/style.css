@@ -128,10 +128,13 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--second-title-color);
+}
+
+.header-left:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-mail {
+.nav-right-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -139,24 +142,25 @@ img {
   color: var(--main-text-color);
 }
 
-.nav-phone {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--main-text-color);
-}
-
-.header-box-right {
-  margin-left: auto;
+.header-right-icon {
+  margin-right: 10px;
 }
 
 .header-right {
-  margin-left: 50px;
-  align-items: baseline;
+  margin-left: 30px;
 }
 
 .header-contact-list {
+  margin-left: 200px;
+}
+
+.header-right-icon {
+  fill: #757575;
+}
+
+.header-right-icon:hover,
+.header-right-icon:focus {
+  fill: var(--six-color);
 }
 
 /*-----------------------------------------------Hero------------------------------------*/
