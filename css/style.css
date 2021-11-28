@@ -290,9 +290,6 @@ img {
   padding-bottom: 94px;
   background: #f5f4fa;
 }
-.team-container {
-  padding-bottom: 94px;
-}
 
 .our-team {
   font-weight: bold;
@@ -312,6 +309,10 @@ img {
 .about-team:not(:last-child) {
   margin-right: 30px;
   display: flex;
+}
+
+.team-card {
+  background: #ffffff;
 }
 
 .about-team {
@@ -386,12 +387,9 @@ img {
 
 /*--------------Company------------*/
 
-.our-team {
+.our-company {
   padding-top: 94px;
-}
-
-.brand-container {
-  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .about-company {
