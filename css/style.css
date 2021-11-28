@@ -134,6 +134,10 @@ img {
   margin-right: 50px;
 }
 
+.header-contact-list {
+  margin-left: 200px;
+}
+
 .nav-right-item {
   font-weight: 500;
   font-size: 14px;
@@ -142,25 +146,18 @@ img {
   color: var(--main-text-color);
 }
 
-.header-right-icon {
-  margin-right: 10px;
-}
-
 .header-right {
   margin-left: 30px;
 }
 
-.header-contact-list {
-  margin-left: 200px;
-}
-
 .header-right-icon {
-  fill: #757575;
+  margin-right: 10px;
+  fill: currentColor;
 }
 
-.header-right-icon:hover,
-.header-right-icon:focus {
-  fill: var(--six-color);
+.nav-right-item:hover,
+.nav-right-item:focus {
+  color: var(--second--text-color);
 }
 
 /*-----------------------------------------------Hero------------------------------------*/
@@ -291,7 +288,12 @@ img {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+  background: #f5f4fa;
 }
+.team-container {
+  padding-bottom: 94px;
+}
+
 .our-team {
   font-weight: bold;
   font-size: 36px;
@@ -348,6 +350,7 @@ img {
   justify-content: center;
   margin-top: 16px;
   margin-bottom: 30px;
+  cursor: pointer;
 }
 
 .master-social-item {
@@ -381,6 +384,12 @@ img {
   fill: var(--main-title-color);
 }
 
+/*--------------Company------------*/
+
+.our-team {
+  padding-top: 94px;
+}
+
 .brand-container {
   padding-top: 94px;
 }
@@ -399,19 +408,7 @@ img {
 
 .company-list {
   display: flex;
-}
-
-.company-item:hover,
-.company-item:focus {
-  border: var(--six-color);
-}
-
-.company-item {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
+  cursor: pointer;
 }
 
 .company-item:not(:last-child) {
@@ -419,16 +416,21 @@ img {
 }
 
 .company-link {
+  width: 170px;
+  height: 92px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 16px;
   fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .company-link:hover,
 .company-link:focus {
   fill: var(--second--text-color);
+  border-color: var(--second--text-color);
 }
 
 /*---------------------------------------------Футер-----------------------------------------------*/
@@ -501,15 +503,16 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .social-box-footer {
-  padding-left: 70px;
+  margin-left: 70px;
 }
 
 .social-box-list {
-  margin-top: 20px;
   display: flex;
+  cursor: pointer;
 }
 
 .social-box-item:not(:last-child) {
@@ -556,6 +559,7 @@ img {
   color: var(--second-title-color);
   padding: 6px 22px 6px 22px;
   border-style: none;
+  cursor: pointer;
 }
 
 .filter-btn:hover {
